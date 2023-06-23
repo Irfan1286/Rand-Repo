@@ -1,0 +1,1 @@
+worthless text that really does not matter as the main notes are written to Git commands.txt

@@ -1,0 +1,44 @@
+this will be commited
+1) git init, creates a repo in directory
+2) git status, shows staging
+3) git log, shows all changes 		enter q to quit log!
+4) git add --a/"filename", stages all/specific files to be commited
+5) git commit -m "message", Commits/pushes the staged changes that will be shown in log
+6) rm -rf .git, delets .git file causing repo to be just a normal folder
+7) git clone <url> <optional filename> ,  to copy from github
+8)pwd ,  present working directory
+9) ls, list contents of the directory
+10) cd/ <path>, change directory
+11) git config --global user.name "name"
+12) git config --global user.email "email address" 
+13) git config --list, shows the name email etc
+14) touch <filename> , creates a new file with the name
+15) IN .gitignore:
+	<name>			Add the names of file to be ignored by git
+	*.<extension of file> 	extensions to be ignored by git
+	<foldername>/  		all folders with the name to be ignored by git
+	/foldername/		only the outer folder ignored by git
+
+16) git diff, compares working directory with the staging area so if the modified files are staged it wont show anything with git diff
+17) git diff --staged shows everything added to staged and differences before that
+18) git commit -a -m "Message" , to directly commit without staging not recommended! If its new file/untracked it wont be committed with the command
+
+19) git rm <name of file>, deletes the file without the need to stage!
+20) git mv <name of file> <new name of file>,   moves old name of file into new name /renames
+21) git rm --cached <filename>, removes from tracking
+22) git log -p <no.of commits to show (optional)> ,  shows the changes done in the commits to repo!
+23) git log --pretty=<type>:
+	<types> short
+		oneline
+		full
+		format:"<placeholders>" string from this website in pretty section https://git-scm.com/docs/pretty-formats
+		
+24) git commit --amend, will open vim editor where pressing i allows to edit
+					, pressing esc, :, w and q then pressing enter quits the editor
+			this will cause the new changes to be commited to the previous ones!
+
+25) git restore --staged <file>, restores the file to be unstaged after staging it using git add (red colored modified)
+26) git checkout -- <filename>, restores the information of the file from the previous commit
+27) git checkout -f ,  		restores all the file in the repo that was modified to the previous commit
+
+
