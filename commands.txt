@@ -59,3 +59,15 @@ this will be commited
 
 				To get the ssh key, copy and paste onto git!
 
+# Setting up Alias(short form)
+
+35) git config --global alias.<new command change> <command_name>
+    such as
+ 	* git config --global alias.st status
+	causes git st = git status
+        
+	* git config --global alias.unstage " restore --staged --"
+	 executed with 
+		git unstage commands.txt
+
+
