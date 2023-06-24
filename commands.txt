@@ -74,6 +74,8 @@ this will be commited
 
 36) git checkout -b <branchname> 
 	creates new branch and switches to it
-37
+37) git checkout <branch to switch to>
+	switches to the branch name entered
+
 
 
