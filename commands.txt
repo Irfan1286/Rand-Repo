@@ -76,6 +76,8 @@ this will be commited
 	creates new branch and switches to it
 37) git checkout <branch to switch to>
 	switches to the branch name entered
+38) git branch 
+	shows the no.of branches created for the repo
 
 
 
