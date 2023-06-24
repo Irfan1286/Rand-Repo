@@ -41,4 +41,21 @@ this will be commited
 26) git checkout -- <filename>, restores the information of the file from the previous commit
 27) git checkout -f ,  		restores all the file in the repo that was modified to the previous commit
 
+# REMOTE REPOSITORY!
+28) git remote add <name of branch, (commonly origin)> <url:https://github.com/Irfan1286/Rand-Repo.git>, creates a remote repo
+29) git remote, tells us the branch names i.e common origin
+30) git push -u origin <branch name(master) or (main)> , pushes file to the remote repo
+
+# Getting permission to push using SSH keys!
+
+31)$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+		Generates ssh keys, keep on entering until a large squigly image comes up
+32) $ eval "$(ssh-agent -s)"
+		Run this if the ssh agent is not running
+33) ssh-add ~/.ssh/id_ed25519
+		To add the identity
+34) tail ~/.ssh/id_ed25519.pub
+				smth like this:-	ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILKSWQC5/aU0yPW/pAttZsHxpCwzOyZsSNqfTzBQV6D6 tihanben@gmail.com
+
+				To get the ssh key, copy and paste onto git!
 
