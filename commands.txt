@@ -70,4 +70,10 @@ this will be commited
 	 executed with 
 		git unstage commands.txt
 
+# Branches
+
+36) git checkout -b <branchname> 
+	creates new branch and switches to it
+37
+
 
