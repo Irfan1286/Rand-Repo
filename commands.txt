@@ -78,6 +78,14 @@ this will be commited
 	switches to the branch name entered
 38) git branch 
 	shows the no.of branches created for the repo
-
+39) git merge <branch_name>
+	Merge conflicts may appear as the merge needs to have new or same line as previous commit in master branch
+	, if one line is modified in both branch that differs from previous commit, conflicts occur
+40) git branch --merged
+	shows the branches that are merged already
+41) git branch -d <branch name>
+	deletes a branch, gives error if the branch is not merged
+42) git branch -D <branch name>
+	deletes a branch, does not give error if branch not merged!
 
 
