@@ -87,5 +87,6 @@ this will be commited
 	deletes a branch, gives error if the branch is not merged
 42) git branch -D <branch name>
 	deletes a branch, does not give error if branch not merged!
-
+43) git push origin <branchname>
+	pushes a branch to remote repo
 
